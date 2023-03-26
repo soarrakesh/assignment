@@ -9,7 +9,7 @@ import configs from './src/config/index.js';
 // Use middleware body-parser
 app.use(bodyParser.json());
 
-// Syncronizing models with database tables comment this line
+// Syncronizing models with database tables
 // models.sequelize
 //   .sync({ alter: true })
 //   .then(() => {
